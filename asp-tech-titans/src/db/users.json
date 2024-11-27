@@ -1,0 +1,11 @@
+[{
+    "id": 1,
+    "username": "aviel281999",
+    "password":"",
+    "firstName": "Aviel",
+    "lastName": "Segev",
+    "age": 25,
+    "subscriptions": ["Rick Astley", "Omer Adam"],
+    "profilePicture": "/db/techTitansLogo.png"
+}
+]

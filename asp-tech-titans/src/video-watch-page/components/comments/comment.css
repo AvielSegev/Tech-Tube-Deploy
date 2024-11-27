@@ -1,0 +1,73 @@
+.content{
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background-color: white;
+}
+.username{
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    flex: 1;
+}
+.date{
+    font-size: small;
+    text-align: left;
+}
+.likesNumber{
+    font-size: 15px;
+    text-align: left;
+    display: inline;
+    margin-right: 6px;
+}
+.dislike-icon-button {
+    padding: 0;
+    float: left;
+    margin: 6px;
+    border: none;
+}
+.like-icon-button {
+    float: left;
+    margin-right: 5px;
+    border: none;
+}
+.circle-image {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    margin-top: 1%;
+    object-fit: cover;
+}
+.border{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+.reply-button{
+    border: none;
+    color: black;
+}.comment {
+    margin-left: 2%;
+    padding: 1%;
+}.comment-input {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: none;
+}.pencil-button{
+    float: left;
+}.usernameAndclosebutton{
+    display: flex;
+}.inputWithComment{
+    display: flex;
+}
+.close-button{
+    width: 4%;
+    margin-right: 2%;
+}

@@ -1,0 +1,110 @@
+/* Styles for the sidebar */
+.sidebar {
+  width: 15%; /* Sidebar width */
+  position: fixed; /* Fixed position to stay on the screen */
+  height: 100%; /* Full height of the screen */
+  background-color: var(--background-color); /* Background color from CSS variables */
+  padding: auto; /* Automatic padding */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+}
+
+/* Styles for the logo container */
+.logo-container-sidebar {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  margin-right: auto; /* Automatic right margin */
+}
+
+/* Styles for the logo image */
+.logo-sidebar-img {
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+}
+
+/* Styles for the scrollable menu */
+.scrollable-menu {
+  flex-grow: 1; /* Allow the scrollable area to grow and fill the space */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-top: auto; /* Automatic top margin */
+}
+
+/* Styles for the unordered list inside the sidebar */
+.sidebar ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles for list items inside the sidebar */
+.sidebar ul li {
+  padding: auto; /* Automatic padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none; /* Remove default border */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  font-size: auto; /* Automatic font size */
+}
+
+/* Styles for images inside list items */
+.sidebar ul li img {
+  margin-left: 0%; /* No left margin */
+  margin-right: 10%; /* Right margin */
+  width: 10%; /* Icon width */
+  height: 10%; /* Icon height */
+}
+
+/* Hover state for list items */
+.sidebar ul li:hover {
+  border: 1px solid #ccc; /* Add border on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Styles for list items without icons */
+.sidebar ul li.no-icon {
+  padding-left: 22%; /* Add padding to align text with items that have icons */
+}
+
+/* Styles for dividers */
+.divider {
+  color: var(--button-background-color); /* Color from CSS variables */
+  border-top: 1px solid var(--divider-background-color); /* Border color from CSS variables */
+  margin: auto 0; /* Automatic margin */
+}
+
+/* Styles for category labels */
+.side-bar-categories-label {
+  background-color: var(--background-color); /* Background color from CSS variables */
+  color: var(--text-color); /* Text color from CSS variables */
+  font-weight: bold; /* Bold font weight */
+  font-size: x-large; /* Large font size */
+  padding-left: 5%; /* Left padding */
+  margin-top: auto; /* Automatic top margin */
+  margin-bottom: auto; /* Automatic bottom margin */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+/* Custom scrollbar styling */
+.scrollable-menu::-webkit-scrollbar {
+  width: auto; /* Width of the scrollbar */
+}
+
+.scrollable-menu::-webkit-scrollbar-thumb {
+  background-color: var(--background-color); /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners for the scrollbar handle */
+}
+
+.scrollable-menu::-webkit-scrollbar-track {
+  background: var(--background-color); /* Color of the scrollbar track */
+}
+
+/* Styles for links */
+a {
+  text-decoration: none; /* Remove underline from all links */
+  color: inherit; /* Inherit color from parent elements */
+}
+
+a:hover {
+  text-decoration: none; /* Ensure underline does not appear on hover */
+}

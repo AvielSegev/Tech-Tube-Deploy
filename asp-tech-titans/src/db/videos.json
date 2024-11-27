@@ -1,0 +1,323 @@
+[
+    {
+        "id": 1,
+        "videoUploaded": "/db/videos/1Digitalization; Where to start_.mp4",
+        "thumbnail": "/db/photos/1.jpg",
+        "title": "Digitalization - Where to start",
+        "publisher": "Rick Astley",
+        "publisherImage": "/db/photos/publisherImages/Rick_Astely.jpg",
+        "views": 500,
+        "date": "2021-10-01",
+        "description": "An introductory guide to digitalization, outlining the essential steps to begin your digital transformation journey effectively.",
+        "relatedVideos":[{"id":2}, {"id":3}, {"id":4},{"id":5}, {"id":6}, {"id":7}, {"id":8}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "playlist": "11",
+        "comments": [
+            {
+                "id": 1,
+                "username": "Aviel Segev",
+                "image": "/db/photos/1.jpg",
+                "date": "2021-10-01",
+                "comment": "GOOD",
+                "likes": 0,
+                "usersLikedId": [{"id":3}],
+                "usersUnLikedId":[{"id":1}]
+            },
+            {
+                "id": 2,
+                "username": "Kobi Hadad",
+                "image": "/db/photos/2.jpg",
+                "date": "2021-10-01",
+                "comment": "יפה",
+                "likes": 1,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            },
+            {
+                "id": 3,
+                "username": "Roi shukrun",
+                "image": "/db/photos/3.jpg",
+                "date": "2024-02-01",
+                "comment": "מסכים עם אביאל",
+                "likes": 2,
+                "usersLikedId": [],
+                "usersUnLikedId":[]
+            },
+            {
+                "id": 4,
+                "username": "anonymous",
+                "image": "/db/photos/4.jpg",
+                "date": "2024-09-01",
+                "comment": "קטלני",
+                "likes": 3,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "videoUploaded": "/db/videos/2Technology Background Video Loop For Website (1).mp4",
+        "thumbnail": "/db/photos/2.jpg",
+        "title": "Technology Background Video Loop For Website",
+        "publisher": "רותם שפירו",
+        "publisherImage": "/db/photos/publisherImages/Rotem.jpg",
+        "views": 10,
+        "date": "2021-10-01",
+        "description": "A seamless technology-themed background video loop perfect for enhancing the visual appeal of your website.",
+        "relatedVideos":[{"id":1}, {"id":3}, {"id":4},{"id":5}, {"id":6}, {"id":7}, {"id":8}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Aviel Segev",
+                "image": "/db/photos/1.jpg",
+                "date": "2021-10-01",
+                "comment": "אין על טכנולוגיה בעולם",
+                "likes": 4,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            },
+            {
+                "id": 2,
+                "username": "Kobi Hadad",
+                "image": "/db/photos/2.jpg",
+                "date": "2021-10-01",
+                "comment": "יפה",
+                "likes": 5,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            },
+            {
+                "id": 3,
+                "username": "Roi shukrun",
+                "image": "/db/photos/3.jpg",
+                "date": "2024-02-01",
+                "comment": "מסכים עם אביאל",
+                "likes": 6,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            },
+            {
+                "id": 4,
+                "username": "anonymous",
+                "image": "/db/photos/4.jpg",
+                "date": "2024-09-01",
+                "comment": "קטלני",
+                "likes": 7,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "videoUploaded": "/db/videos/3 10 MINUTE DINNER! The Best Honey Garlic Chicken Recipe.mp4",
+        "thumbnail": "/db/photos/3.jpg",
+        "title": "10 MINUTE DINNER! The Best Honey Garlic Chicken Recipe",
+        "publisher": "Omer Adam",
+        "publisherImage": "/db/photos/publisherImages/Omer_Adam.jpg",
+        "views": 999,
+        "date": "2021-10-01",
+        "description":"A quick and delicious honey garlic chicken recipe that can be prepared in just 10 minutes, perfect for busy evenings.",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":4},{"id":5}, {"id":6}, {"id":7}, {"id":8}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Aviel Segev",
+                "image": "/db/photos/1.jpg",
+                "date": "2021-10-01",
+                "comment": "it is so spicy",
+                "likes": 0,
+                "usersLikedId": [{"id":3}],
+                "usersUnLikedId":[{"id":1}]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "videoUploaded": "/db/videos/4Road Nature  video clip 4k copyright free videos copyright music and photos.mp4",
+        "thumbnail": "/db/photos/4.jpg",
+        "title": "Road Nature video clip 4k",
+        "publisher": "Shahar Saul",
+        "publisherImage": "/db/photos/publisherImages/shahar.jpg",
+        "views": 0,
+        "date": "2024-03-13",
+        "description":"A stunning 4K video clip showcasing the serene beauty of nature along a scenic road, ideal for relaxation and inspiration.",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":3}, {"id":5}, {"id":6}, {"id":7}, {"id":8}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Steven Kidkle",
+                "image": "/db/photos/1.jpg",
+                "date": "2021-10-01",
+                "comment": "Remaind me the japanise road trip i had last year",
+                "likes": 0,
+                "usersLikedId": [{"id":3}],
+                "usersUnLikedId":[{"id":1}]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "videoUploaded": "/db/videos/5How to make PERFECT CHURROS with Hot Chocolate.mp4",
+        "thumbnail": "/db/photos/5.jpg",
+        "title": "How to make PERFECT CHURROS with Hot Chocolate",
+        "publisher": "Omer Adam",
+        "publisherImage": "/db/photos/publisherImages/Omer_Adam.jpg",
+        "views": 3,
+        "date": "2024-03-13",
+        "description":"A step-by-step tutorial on making perfect churros, accompanied by a rich and indulgent hot chocolate dip",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":3}, {"id":4},{"id":6}, {"id":7}, {"id":8}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 3,
+                "username": "Roi shukrun",
+                "image": "/db/photos/3.jpg",
+                "date": "2024-02-01",
+                "comment": "יא אללה איך בא לי עכשיו",
+                "likes": 90,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "videoUploaded": "/db/videos/6Futuristic interface _ HUD sound effects.mp4",
+        "thumbnail": "/db/photos/6.jpg",
+        "title": "Futuristic interface - HUD sound effects",
+        "publisher": "Omer Adam",
+        "publisherImage": "/db/photos/publisherImages/Omer_Adam.jpg",
+        "views": 78,
+        "date": "2024-03-13",
+        "description":"A collection of high-quality sound effects designed for futuristic interfaces and heads-up displays (HUDs).",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":3}, {"id":4},{"id":5}, {"id":7}, {"id":8}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Natali Levich",
+                "image": "/db/photos/5.jpg",
+                "date": "2024-06-01",
+                "comment": "מצוין",
+                "likes": 2800,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "videoUploaded": "/db/videos/7Sci-fi Hologram UI Sound Design.mp4",
+        "thumbnail": "/db/photos/7.jpg",
+        "title": "Sci-fi Hologram UI Sound Design",
+        "publisher": "Omer Adam",
+        "publisherImage": "/db/photos/publisherImages/Omer_Adam.jpg",
+        "views": 1,
+        "date": "2024-03-13",
+        "description":"An immersive sound design collection featuring sci-fi hologram user interface (UI) effects, perfect for enhancing futuristic projects.",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":3}, {"id":4},{"id":5}, {"id":6}, {"id":8}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Natali Levich",
+                "image": "/db/photos/2.jpg",
+                "date": "2024-06-01",
+                "comment": "מצוין",
+                "likes": 2800,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "videoUploaded": "/db/videos/8TASTY CHICKEN CURRY _ Easy food recipes for dinner to make at home - cooking videos.mp4",
+        "thumbnail": "/db/photos/8.jpg",
+        "title": "TASTY CHICKEN CURRY - Easy food recipes for dinner to make at home",
+        "publisher": "Omer Adam",
+        "publisherImage": "/db/photos/publisherImages/Omer_Adam.jpg",
+        "views": 6,
+        "date": "2024-03-13",
+        "description":"A simple yet flavorful chicken curry recipe that's easy to make at home, offering a delicious dinner option.",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":3}, {"id":4},{"id":5}, {"id":6}, {"id":7}, {"id":9}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Natali Levich",
+                "image": "/db/photos/2.jpg",
+                "date": "2024-06-01",
+                "comment": "מצוין",
+                "likes": 2800,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "videoUploaded": "/db/videos/9Short Sunset Video Clip (4K) Philippines.mp4",
+        "thumbnail": "/db/photos/9.jpg",
+        "title": "short Sunset Video Clip (4K) Philippines",
+        "publisher": "Omer Adam",
+        "publisherImage": "/db/photos/publisherImages/Omer_Adam.jpg",
+        "views": 9,
+        "date": "2024-03-13",
+        "description":"A breathtaking short video clip capturing the vibrant hues of a sunset in the Philippines, presented in stunning 4K resolution.",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":3}, {"id":4},{"id":5}, {"id":6}, {"id":7}, {"id":8}, {"id":10}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Natali Levich",
+                "image": "/db/photos/2.jpg",
+                "date": "2024-06-01",
+                "comment": "מצוין",
+                "likes": 2800,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "videoUploaded": "/db/videos/10Nature Beautiful short video 720p HD.mp4",
+        "thumbnail": "/db/photos/10.jpg",
+        "title": "Nature Beautiful short video",
+        "publisher": "Omer Adam",
+        "publisherImage": "/db/photos/publisherImages/Omer_Adam.jpg",
+        "views": 27,
+        "date": "2024-03-13",
+        "description":"A brief yet captivating video showcasing the serene beauty of nature, perfect for relaxation and mindfulness.",
+        "relatedVideos":[{"id":1}, {"id":2}, {"id":3}, {"id":4},{"id":5}, {"id":6}, {"id":7}, {"id":8}, {"id":9}],
+        "usersLikes": [],
+        "usersUnlikes": [],
+        "comments": [
+            {
+                "id": 1,
+                "username": "Natali Levich",
+                "image": "/db/photos/2.jpg",
+                "date": "2024-06-01",
+                "comment": "מצוין",
+                "likes": 2800,
+                "usersLikedId": [{"id":1}, {"id":3}],
+                "usersUnLikedId":[]
+            }
+        ]
+    }
+]

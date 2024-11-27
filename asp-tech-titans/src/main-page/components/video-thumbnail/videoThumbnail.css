@@ -1,0 +1,92 @@
+/* Styles for the video thumbnail container */
+.video-thumbnail {
+  background-color: var(--background-color); /* Background color from CSS variables */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center items horizontally */
+  border: none; /* Remove default border */
+  margin-top: 1%; /* Top margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  max-width: 100%; /* Full width */
+  position: relative; /* Position relative for child elements */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+/* Styles for the video thumbnail image */
+.thumbnail-image {
+  width: 100%; /* Full width */
+  height: auto; /* Adjust height automatically */
+  aspect-ratio: 16 / 9; /* Aspect ratio of 16:9 */
+  border-radius: 15px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+/* Hover state for the video thumbnail image */
+.video-thumbnail:hover .thumbnail-image {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  border-radius: 0; /* Remove rounded corners */
+}
+
+/* Styles for the video info container */
+.video-info {
+  color: var(--text-color); /* Text color from CSS variables */
+  text-align: left; /* Left-aligned text */
+  width: 100%; /* Full width */
+  padding: 0.5%; /* Padding */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+}
+
+/* Styles for the video header container */
+.video-header {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px; /* Bottom margin */
+  position: relative; /* Position relative for child elements */
+}
+
+/* Styles for the publisher image */
+.publisher-image {
+  width: 50px; /* Width */
+  height: 50px; /* Height */
+  border-radius: 50%; /* Round shape */
+  margin-right: 10px; /* Right margin */
+  margin-top: 5px; /* Top margin */
+}
+
+/* Styles for the video title */
+.video-title {
+  color: var(--text-color); /* Text color from CSS variables */
+  font-size: x-large; /* Extra large font size */
+  font-weight: bold; /* Bold font weight */
+  margin: 0; /* Remove margin */
+  flex-grow: 1; /* Allow the title to grow and fill available space */
+}
+
+/* Styles for the delete button */
+.delete-button {
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  font-size: large; /* Large font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  position: absolute; /* Absolute positioning */
+  right: 0; /* Position to the right */
+  top: 50%; /* Position at the middle vertically */
+  transform: translateY(-50%); /* Center the button vertically */
+}
+
+/* Styles for the video details container */
+.video-details {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+}
+
+/* Styles for the video views, publisher, and date */
+.video-views,
+.video-publisher,
+.video-date {
+  font-size: large; /* Large font size */
+  margin: 0; /* Remove margin */
+  color: gray; /* Gray color */
+}
